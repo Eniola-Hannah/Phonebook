@@ -7,8 +7,6 @@ phonebook = {
     "email_address":"heniola395@gmail.com"
 }
 
-print(phonebook)
-
 class Phonebook:
     def __init__(self):
         self.welcome_message = "Hello there, Welcome to the phonebook program"
@@ -18,5 +16,7 @@ class Phonebook:
     def menu(self):
         print(self.welcome_message)
         time.sleep(1)
-        print(self.aboutan)
+        print(self.about)
         
+        
+phonebookProgram = PhoneBook()
