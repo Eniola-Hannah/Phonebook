@@ -7,3 +7,6 @@ phonebook = {
 }
 
 print(phonebook)
+
+class Phonebook:
+    
