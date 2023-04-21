@@ -15,8 +15,8 @@ class Phonebook:
         
     def menu(self):
         print(self.welcome_message)
-        time.sleep(1)
-        print(self.about)
+        time.sleep(2)
+        print("\n" + self.about)
         
         
-phonebookProgram = PhoneBook()
+phonebookProgram = Phonebook()
